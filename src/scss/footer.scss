@@ -1,0 +1,44 @@
+.footer {
+  // .footer__container
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 60px 15px;
+    @media (max-width: 767px) {
+      flex-direction: column;
+      padding: 40px 15px;
+      align-items: center;
+      gap: 20px 0;
+      text-align: center;
+    }
+  }
+
+  // .footer__column
+
+  &__column {
+  }
+
+  // .footer__logo
+
+  &__logo {
+    margin: 0px 0px 20px 0px;
+  }
+
+  // .footer__text
+
+  &__text {
+  }
+
+  // .footer__icons
+
+  &__icons {
+    display: flex;
+    gap: 0 20px;
+  }
+  // .footer__icon
+
+  &__icon {
+  }
+}
